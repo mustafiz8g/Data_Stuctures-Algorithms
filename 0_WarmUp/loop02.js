@@ -123,9 +123,23 @@ console.log(countNegative(2,3,62,-33, 45,-32,12,67,-43))
     let largest = -Infinity;
     let second = - Infinity;
 
-    for (let )
+    for (let i = 0 ; i < arr.length ; i++){
+        if(arr[i] > largest){
+            second  = largest;
+            largest = arr[i];
+        }
+        else if(arr[i] > second && arr[i] < largest){
+            second = arr[i];
+        }
+    }
+   
+    return second  === -Infinity ? 'No second largest (all elements equal)' : second;
+    
+   
  }
 
+ console.log(secondLargest([3,34,7,34,2,8,34,8,36,7]));
+ console.log(secondLargest([3,3,3,3,3]));
 
 
 
