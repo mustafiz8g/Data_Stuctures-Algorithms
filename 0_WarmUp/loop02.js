@@ -145,5 +145,37 @@ console.log(countNegative(2,3,62,-33, 45,-32,12,67,-43))
 
 
 
+// loop withi a loop
+
+for(let i = 0; i < 5; i++){
+    console.log(i)
+    for(j = 0; j < 5; j++){
+        console.log(j)
+    }
+}
+
+console.log('-------------------------------------------------------')
+
+for(let i = 0; i < 3 ; i++){
+    // console.log(i)
+    for(let j = 0; j < i; j++){
+        console.log(i,j)
+    }
+
+}
+console.log('-------------------------------------------------------')
+
+for(let i = 0; i < 3; i++){
+    for(j = i ; j > 0 ; j--){
+        console.log(i, j)
+    }
+}
+console.log('-------------------------------------------------------')
+
+for(let i = 0; i < 3; i++){
+    for(j = i ; j >= 0 ; j--){
+        console.log(i, j)
+    }
+}
 
 
