@@ -50,13 +50,14 @@ Example:
 |--------|------|
 | 26. Remove Duplicates from Sorted Array | [Solution](array/26-remove-duplicates.js) |
 | 27. Remove Element | [Solution](array/27-remove-element.js) |
+| 344. Reverse String | [Solution](string/344-reverse-string.js) |
 
 ### String
 | Problem | Link |
 |--------|------|
-| 344. Reverse String | [Solution](string/344-reverse-string.js) |
 
-(I will update this table as you solve more problems.)
+
+(I will update this table as I solve more problems.)
 
 ---
 
